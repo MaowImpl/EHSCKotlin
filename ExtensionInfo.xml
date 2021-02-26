@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Extension name="My Extension" lang="English" allowSaves="true" intro="true">
+	<StartingNodes>myComp,myComp2</StartingNodes>
+	<StartingMission>Missions/StartingMission.xml</StartingMission>
+	<StartingActions>Actions/StartingActions.xml</StartingActions>
+	<StartingTheme>Themes/StartingTheme.xml</StartingTheme>
+	<Description>Test extension info file.</Description>
+	<WorkshopDescription>Workshop description.</WorkshopDescription>
+	<Faction>Factions/Faction1.xml</Faction>
+	<Faction>Factions/Faction2.xml</Faction>
+	<Sequencer target="sequencerTarget" spinupTime="10.0" flag="sequencerFlag" actions="Actions/SequencerActions.xml"/>
+	<WorkshopInfo visibility="0" tags="Extension,Labyrinths" logo="WorkshopLogo.png"/>
+</Extension>

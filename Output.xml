@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HacknetExtension>
+  <Language>English</Language>
+  <WorkshopLanguage>en-us</WorkshopLanguage>
+  <Name>My Extension</Name>
+  <AllowSaves>true</AllowSaves>
+  <VisibleStartingNodes>myComp,myComp2</VisibleStartingNodes>
+  <StartingMission>Missions/StartingMission.xml</StartingMission>
+  <StartingActions>Actions/StartingActions.xml</StartingActions>
+  <Description>Test extension info file.</Description>
+  <WorkshopDescription>Workshop description.</WorkshopDescription>
+  <Faction>Factions/Faction1.xml</Faction>
+  <Faction>Factions/Faction2.xml</Faction>
+  <StartsWithTutorial>false</StartsWithTutorial>
+  <HasIntroStartup>true</HasIntroStartup>
+  <SequencerTargetID>sequencerTarget</SequencerTargetID>
+  <SequencerSpinUpTime>10.0</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>sequencerFlag</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/SequencerActions.xml</ActionsToRunOnSequencerStart>
+  <WorkshopVisibility>0</WorkshopVisibility>
+  <WorkshopTags>Extension,Labyrinths</WorkshopTags>
+  <WorkshopPreviewImagePath>WorkshopLogo.png</WorkshopPreviewImagePath>
+  <WorkshopPublishID>NONE</WorkshopPublishID>
+</HacknetExtension>
